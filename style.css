@@ -1,0 +1,55 @@
+#outer{
+    height: fit-content;
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    background-color: lightgray;
+    
+}
+
+#io{
+    margin: 5px; ;
+    background-color: aquamarine;
+    width: auto;
+    height: 3.5rem;
+    font-size: 3rem;
+    text-align: right;
+    overflow: hidden;
+
+}
+
+#inner{
+    background-color: black;
+    width: auto;
+    margin: 5px;
+    height: auto;
+  
+   
+}
+
+.key{
+    width: 24.4%;
+    height: 4rem;
+    background: white;
+    margin: 2px;
+    font-size: 3rem;
+    text-align: center;
+
+}
+.four-div{
+
+    display: flex;
+}
+
+#zero{
+    width: 50% !important;
+}
+
+.operator{
+    color: white;
+    background-color:rgb(153, 40, 40) ;
+}
+.key:hover{
+    background-color: darkkhaki;
+}
